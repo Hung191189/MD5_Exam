@@ -28,7 +28,7 @@ export default function Create() {
                             </div>
                             <div className="form-group">
                                 <label>Price</label>
-                                <Field type="text" className={"form-control"} name={"price"}></Field>
+                                <Field type="number" className={"form-control"} name={"price"}></Field>
                             </div>
                             <div className="form-group">
                                 <label>Description</label>

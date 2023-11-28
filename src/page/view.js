@@ -20,7 +20,7 @@ const [list, setList] = useState({})
                 <div className="card-body">
                     <h3 className="card-title">Product name: {list.title}</h3>
                     <h5 className="card-text">Description: {list.description}</h5>
-                    <h5 className="card-text">Price: {list.price}</h5>
+                    <h5 className="card-text">Price: {list.price} $</h5>
                     <Link to={"/home"} className="btn btn-primary"> Back to home</Link>
                 </div>
             </div>
