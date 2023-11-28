@@ -62,8 +62,8 @@ export default function Home() {
                             <td><Link to={"/view/" + item.id}>{item.title}</Link></td>
                             <td>{item.price}</td>
                             <td>{item.description}</td>
-                            <td>< Link to={"/edit/" + item.id}>Edit</Link> </td>
-                            <td onClick={() => handleDelete(item.id)}  >Delete</td>
+                            <td className="btn btn-primary">< Link to={"/edit/" + item.id} style={{textDecoration:"none", color: "white"}} >Edit</Link> </td>
+                            <td onClick={() => handleDelete(item.id)} className="btn btn-danger ml-3" >Delete</td>
                         </tr>
                     )
                 })}
